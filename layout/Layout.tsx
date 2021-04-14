@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Footer } from './components'
 
 type Props = {
   children: React.ReactNode
@@ -6,15 +7,13 @@ type Props = {
 }
 
 export const Layout = ({children, title = "default"}: Props)=>{
-  <div>
+  return (<div>
     <Head>
       <title>{ title }</title>
     </Head>
     <main>
       { children }
     </main>
-    <footer>
-      {/* footer */}
-    </footer>
-  </div>
+    <Footer />
+  </div>)
 }
