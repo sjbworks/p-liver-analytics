@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const Footer =()=>
+export const Footer = () => (
   <footer>
     <Link href="/corefan">
       <a>CoreFan</a>
@@ -12,3 +12,4 @@ export const Footer =()=>
       <a>Register</a>
     </Link>
   </footer>
+)

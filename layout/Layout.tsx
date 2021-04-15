@@ -6,14 +6,14 @@ type Props = {
   title?: string
 }
 
-export const Layout = ({children, title = "default"}: Props)=>{
-  return (<div>
-    <Head>
-      <title>{ title }</title>
-    </Head>
-    <main>
-      { children }
-    </main>
-    <Footer />
-  </div>)
+export const Layout = ({ children, title = 'default' }: Props) => {
+  return (
+    <div>
+      <Head>
+        <title>{title}</title>
+      </Head>
+      <main>{children}</main>
+      <Footer />
+    </div>
+  )
 }

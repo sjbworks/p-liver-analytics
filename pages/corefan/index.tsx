@@ -1,2 +1,2 @@
-const CoreFan = ()=><div>CoreFan</div>
+const CoreFan = () => <div>CoreFan</div>
 export default CoreFan
