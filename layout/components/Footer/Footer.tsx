@@ -1,15 +1,29 @@
 import Link from 'next/link'
+import { Icon } from '@iconify/react'
+import fileEdit from '@iconify/icons-mdi/file-edit'
+import speedometerIcon from '@iconify/icons-mdi/speedometer'
+import faceManShimmer from '@iconify/icons-mdi/face-man-shimmer'
+import { Text } from '../../../components/atoms/Text'
 
 export const Footer = () => (
-  <footer>
+  <footer className="flex bg-blue-600">
     <Link href="/corefan">
-      <a>CoreFan</a>
+      <div>
+        <Icon icon={speedometerIcon} color="white" />
+        {/* <Text>Meter</Text> */}
+      </div>
     </Link>
     <Link href="/meter">
-      <a>Meter</a>
+      <div>
+        <Icon icon={faceManShimmer} color="white" />
+        {/* <Text>CoreFan</Text> */}
+      </div>
     </Link>
     <Link href="/register">
-      <a>Register</a>
+      <div>
+        <Icon icon={fileEdit} color="white" />
+        {/* <Text>Register</Text> */}
+      </div>
     </Link>
   </footer>
 )
