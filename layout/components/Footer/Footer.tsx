@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react'
 import fileEdit from '@iconify/icons-mdi/file-edit'
 import speedometerIcon from '@iconify/icons-mdi/speedometer'
 import faceManShimmer from '@iconify/icons-mdi/face-man-shimmer'
-import { Text } from '../../../components/atoms/Text'
+import { Text } from '@/components/atoms/Text'
 
 export const Footer = () => (
   <footer className="flex h-16 bg-blue-600">
