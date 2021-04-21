@@ -10,7 +10,7 @@ export const Footer = () => (
     <Link href="/corefan">
       <div className="flex items-center justify-center flex-1">
         <Icon icon={speedometerIcon} color="white" width="32" />
-        {/* <Text>Meter</Text> */}
+        <Text>Meter</Text>
       </div>
     </Link>
     <Link href="/meter">
