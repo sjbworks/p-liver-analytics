@@ -7,13 +7,13 @@ import { Text } from '@/components/atoms/Text'
 
 export const Footer = () => (
   <footer className="flex h-16 bg-blue-600">
-    <Link href="/corefan">
+    <Link href="/meter">
       <div className="flex items-center justify-center flex-1">
         <Icon icon={speedometerIcon} color="white" width="32" />
         <Text>Meter</Text>
       </div>
     </Link>
-    <Link href="/meter">
+    <Link href="/corefan">
       <div className="flex items-center justify-center flex-1">
         <Icon icon={faceManShimmer} color="white" width="32" />
         {/* <Text>CoreFan</Text> */}
