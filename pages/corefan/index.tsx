@@ -1,6 +1,7 @@
 import { LineChart } from 'components/molecules/LineChart'
 import { Text } from 'components/atoms/Text'
 import { LineChartProps } from 'components/molecules/LineChart'
+import { Layout } from 'components/templates'
 
 const SERIES = [
   {
@@ -14,10 +15,12 @@ const CATEGORIES = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12
 const LINE_CHART_PROPS: LineChartProps<string> = { series: SERIES, categories: CATEGORIES }
 
 const CoreFan = () => (
-  <div>
-    <Text size="small">corefan</Text>
-    <LineChart {...LINE_CHART_PROPS} />
-  </div>
+  <Layout>
+    <div>
+      <Text size="small">corefan</Text>
+      <LineChart {...LINE_CHART_PROPS} />
+    </div>
+  </Layout>
 )
 
 export default CoreFan

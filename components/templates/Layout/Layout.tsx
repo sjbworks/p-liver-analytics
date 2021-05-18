@@ -13,7 +13,7 @@ export const Layout = ({ children, title = 'default' }: Props) => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <title>p-liver-analytics</title>
-        <link rel="icon" href="" />
+        <link rel="icon" href="../components/assets/favicon.ico" />
         <meta name="theme-color" content="#000000" />
         <meta title="p-liver-analytics" />
         <meta name="og:title" content="p-liver-analytics" />
@@ -24,7 +24,7 @@ export const Layout = ({ children, title = 'default' }: Props) => {
         <meta name="og:url" content="" />
       </Head>
       <Header title={title} />
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow w-full mx-auto md:w-sm max-w-screen-sm">{children}</main>
       <Footer />
     </div>
   )

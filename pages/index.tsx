@@ -1,5 +1,5 @@
 import { Layout } from '@/components/templates/Layout'
 
 export default function Home() {
-  return <Layout title="p-liver-analytics">Learn more</Layout>
+  return <Layout title="Liver Analytics Tool">Learn more</Layout>
 }
