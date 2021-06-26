@@ -13,12 +13,6 @@ export const Footer = () => (
         <Text>Meter</Text>
       </div>
     </Link>
-    <Link href="/corefan">
-      <div className="flex items-center justify-center flex-1">
-        <Icon icon={faceManShimmer} color="white" width="32" />
-        {/* <Text>CoreFan</Text> */}
-      </div>
-    </Link>
     <Link href="/register">
       <div className="flex items-center justify-center flex-1">
         <Icon icon={fileEdit} color="white" width="32" />
