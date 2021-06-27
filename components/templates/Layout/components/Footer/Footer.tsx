@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { Icon } from '@iconify/react'
 import fileEdit from '@iconify/icons-mdi/file-edit'
 import speedometerIcon from '@iconify/icons-mdi/speedometer'
-import faceManShimmer from '@iconify/icons-mdi/face-man-shimmer'
 import { Text } from '@/components/atoms/Text'
 
 export const Footer = () => (
