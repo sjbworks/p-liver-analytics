@@ -1,10 +1,12 @@
-import { ThemingProps } from '@chakra-ui/react'
+import { INPUT_SIZE } from '..'
+
+export type SelectSizeType = typeof INPUT_SIZE[keyof typeof INPUT_SIZE]
 
 export type InputProps = {
-  value: string | number
+  value: string
   placeholder?: string
-  onChange: (value: string | number) => void
+  onChange: (value: string) => void
   disabled?: boolean
-  size?: ThemingProps<'Input'>['size']
+  size?: SelectSizeType
   className?: string
 }
