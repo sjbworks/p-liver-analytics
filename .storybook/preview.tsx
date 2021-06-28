@@ -27,7 +27,7 @@ export const globalTypes = {
       items: ['LTR', 'RTL'],
     },
   },
-};
+}
 
 const withChakra = (StoryFn: Function, context: StoryContext) => {
   const { direction } = context.globals
@@ -38,7 +38,7 @@ const withChakra = (StoryFn: Function, context: StoryContext) => {
         <StoryFn />
       </div>
     </ChakraProvider>
-  );
-};
+  )
+}
 
 export const decorators = [withChakra]
