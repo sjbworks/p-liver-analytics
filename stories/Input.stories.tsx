@@ -4,7 +4,7 @@ import { Meta } from '@storybook/react/types-6-0'
 import { Input } from 'components/molecules/Input'
 
 export default {
-  title: 'components/atoms/Input',
+  title: 'components/molecules/Input',
   component: Input,
   argTypes: {
     backgroundColor: { control: 'color' },
