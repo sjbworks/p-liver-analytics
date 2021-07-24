@@ -10,6 +10,7 @@ export type SelectSizeType = typeof SELECT_SIZE[keyof typeof SELECT_SIZE]
 export type SelectProps = {
   value: string
   placeholder?: string
+  label?: string
   onChange: (value: string) => void
   options: OptionType[]
   disabled?: boolean
